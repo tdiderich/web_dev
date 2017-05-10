@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Intermediate HTML</title>
+  </head>
+  <body>
+    <!-- learning tables -->
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Age</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Tyler</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>Alex</td>
+          <td>23</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- learning forms -->
+    <h1>Login</h1>
+    <form>
+      <label>
+        <p>Username:</p>
+        <input name="username" type="text" placeholder="username" required>
+      </label>
+      <label>
+        <p>Password:</p>
+        <input name="password" type="password" placeholder="password" required>
+      </label>
+
+      <p>Cats or Dogs?</p>
+      <label for="dogs">Dogs: </label>
+      <input name="pet" id="dogs" type="radio" value:"DOGS">
+
+      <label for="cats">Cats: </label>
+      <input name="pet" id="cats" type="radio" value:"CATS">
+
+      <p>Favorite color?</p>
+      <select name="color">
+        <option>Red</option>
+        <option>Orange</option>
+        <option>Blue</option>
+      </select>
+
+      <p>Tell me a story...</p>
+      <textarea rows="10" cols="10"></textarea>
+      <br />
+      <input type="submit">
+    </form>
+
+  </body>
+</html>
