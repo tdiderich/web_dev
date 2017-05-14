@@ -1,0 +1,52 @@
+h1{
+  color: #000000;
+}
+
+h4{
+  color: red;
+}
+
+li{
+  color: #000000;
+}
+
+body{
+  background: rgba(50, 0, 0, 0.1);
+  /*border-color: rgba(50, 50, 0, 1);
+  border-width: 5px;
+  border-style: groove;*/
+  border: 2px groove rgba(50, 0, 0, 1);
+}
+
+.class{
+  background: #FF00FF
+}
+
+#special{
+  background: #FFFF00
+}
+
+/* * will do the entire page */
+* {
+  entire: page;
+}
+
+/* everything nested instide the first selector ex. every anchor tag in li */
+li a {
+  list: anchors;
+}
+
+/* anything inline with the first selector ex. ul under h4 */
+h4 + ul {
+  entire: page;
+}
+
+/* attribute selector: inside tag and equal to  */
+a[href=www.google.com] {
+  entire: page;
+}
+
+/* nth type: every nth tag of certain type */
+li: nth-of-type(even) {
+  entire: page;
+}

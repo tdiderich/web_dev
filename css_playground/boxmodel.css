@@ -1,0 +1,79 @@
+p {
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+  text-align: center;
+  font-size: 50px;
+}
+
+td {
+  width: 100px;
+  height: 100px
+}
+
+table {
+  margin: auto;
+}
+
+#center{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.left{
+  border-top: 1px solid black;
+  border-left: 0px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.bottom{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 0px solid black;
+}
+
+.bottoml{
+  border-top: 1px solid black;
+  border-left: 0px solid black;
+  border-right: 1px solid black;
+  border-bottom: 0px solid black;
+}
+
+.bottomr{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 0px solid black;
+  border-bottom: 0px solid black;
+}
+
+.right{
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 0px solid black;
+  border-bottom: 1px solid black;
+}
+
+.top{
+  border-top: 0px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.topl{
+  border-top: 0px solid black;
+  border-left: 0px solid black;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+.topr{
+  border-top: 0px solid black;
+  border-left: 1px solid black;
+  border-right: 0px solid black;
+  border-bottom: 1px solid black;
+}
