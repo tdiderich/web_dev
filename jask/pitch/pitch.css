@@ -2,6 +2,13 @@ html, body {
     height: 100%;
 }
 
+li span {
+  padding-left: 1px;
+}
+
+hr{
+  width: 80%;
+}
 .fill {
     min-height: 100%;
     height: 100%;
@@ -25,66 +32,118 @@ html, body {
   text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
 }
 
+.soc{
+  text-align: center;
+  color: white;
+  font-size: 35px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.soc2{
+  text-align: center;
+  padding-top: 1%;
+  color: white;
+  font-size: 100px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.soc3{
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+  font-size: 100px;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+.quote {
+  padding-top: 15%;
+}
+
+#soc {
+  font-size: 70px;
+  padding-top: 10%;
+}
+
 .arrow{
   padding-top: 40px;
 }
 
 #one {
-  background: url("one.jpg");
+  background: url(images/one.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #two {
-  background: url("two.jpg");
+  background: url(images/two.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #three {
-  background: black;
+  background: url(images/three.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #four {
-  background: grey;
+  background: url(images/four.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #five {
-  background: url(five.jpg);
+  background: url(images/five.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #six {
-  background: url(six.jpg);
+  background: url(images/six.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #seven {
-  background: url(seven.jpg);
+  background: url(images/seven.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #eight {
-  background: blue;
+  background: url(images/eight.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #nine {
-  background: url(nine.jpg);
+  background: url(images/nine.jpg);
   background-size: cover;
   background-position: center;
 }
 
 #ten {
-  background: url(ten.jpg);
+  background: url(images/ten.jpg);
   background-size: cover;
   background-position: center;
+}
+
+#eleven {
+  background: url(images/eleven.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#twelve {
+  background: url(images/twelve.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.jask {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 150px;
+  height: 150px;
 }
